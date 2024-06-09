@@ -35,7 +35,7 @@ const PassGenerator = () => {
         setChars={setChars}
         setLength={setLength}
       />
-      <h1>esta es</h1>
+
       <PasswordsShow />
     </>
   );
