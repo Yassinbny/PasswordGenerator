@@ -1,0 +1,139 @@
+* {
+  box-sizing: 0;
+  padding: 0;
+}
+body {
+  background-color: #121212;
+  color: #33ff33;
+  font-family: "Courier New", Courier, monospace;
+
+  height: 100vh;
+}
+#header {
+  text-decoration: none;
+  color: #33ff33;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  margin-bottom: auto;
+}
+.custom-links {
+  text-decoration: none;
+  color: inherit;
+  margin: auto;
+}
+.custom-links:hover {
+  color: #036603;
+}
+.custom-links:active {
+  color: rgb(171, 175, 171);
+}
+.links {
+  margin-left: auto;
+}
+.home {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.home main section {
+  width: 600px;
+  display: flex;
+  flex-direction: column;
+}
+.home h2 {
+  font-size: 30px;
+}
+.home h3 {
+  font-size: 25px;
+}
+.home p {
+  font-size: 20px;
+}
+
+input[type="number"],
+input[type="text"],
+input[type="checkbox"] {
+  background-color: #282828;
+  color: #33ff33;
+  border: 1px solid #33ff33;
+  padding: 5px;
+  border-radius: 5px;
+  margin-right: 10px;
+}
+
+button {
+  background-color: #33ff33;
+  color: #121212;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+  margin-top: 10px; /* Espaciado adicional para el botón */
+  margin-left: 10px;
+}
+
+button:hover {
+  opacity: 0.9;
+}
+
+#formulario {
+  margin: auto;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+ul {
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  list-style-type: none;
+  padding: 0;
+  margin-top: 15px; /* Espaciado adicional para la lista */
+}
+
+li {
+  min-width: 300px;
+  max-width: 600px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  flex-wrap: wrap;
+  background-color: #282828;
+  margin: 10px;
+  padding: 10px;
+  border-radius: 5px;
+}
+#keepedpass-ul {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.li-button {
+  font-size: 12px;
+  padding: 0;
+  width: 55px;
+  height: 30px;
+  margin: auto;
+  margin-right: 0;
+}
+span {
+  display: flex;
+  align-items: center;
+}
+
+#li-delete {
+  margin-left: auto;
+}
+
+label {
+  margin-right: 10px;
+  display: block; /* Hace que cada label esté en su propia línea */
+  margin-top: 10px; /* Espaciado adicional para cada label */
+}
